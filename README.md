@@ -32,3 +32,15 @@ vagrant@ubuntu-focal:~/simple_shell$
 - Coding style: [Betty](https://github.com/holbertonschool/Betty/wiki)
 - No known memory leaks ==> *hint: check with valgrind*
 - No more than 5 functions per file
+## Features
+- [x] Display a prompt
+- [x] Handle errors
+- [x] Handle commands with arguments
+- [x] Handle th PATH
+- [ ] Write our own `getline` function
+- [x] Write our own `strtok` function
+- [x] Handle exit with status
+- [ ] Handle commands separator `;`
+- [ ] Handle logical operators `&&` and `||`
+- [ ] Handle variables replacement, `$?` and `$$`
+- [x] Handle comments `#`
