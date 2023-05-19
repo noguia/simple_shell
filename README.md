@@ -44,3 +44,12 @@ vagrant@ubuntu-focal:~/simple_shell$
 - [ ] Handle logical operators `&&` and `||`
 - [ ] Handle variables replacement, `$?` and `$$`
 - [x] Handle comments `#`
+## Builtins
+- [x] `exit`
+- [x] `env`
+- [x] `setenv`
+- [x] `unsetenv`
+- [x] `cd`
+- [ ] help
+- [ ] history
+
