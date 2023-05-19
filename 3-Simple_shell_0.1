@@ -3,12 +3,11 @@
 #define ARGS_SIZE 1000
 
 /**
-* read_command - reads command from user input
-* @env: environment variables list (to be freed in case of EOF or error)
-*
-* Return: pointer to allocated command string
-*/
-
+ * read_command - reads command from user input
+ * @env: environment variables list (to be freed in case of EOF or error)
+ *
+ * Return: pointer to allocated command string
+ */
 char *read_command(__attribute__((unused))char **env)
 {
 	char *buffer;
@@ -19,10 +18,10 @@ char *read_command(__attribute__((unused))char **env)
 	{
 		if (isatty(STDIN_FILENO))
 			write(STDOUT_FILENO, "\n", 1);
-	free(buffer), buffer = NULL;
-	free_2D(env), env = NULL;
-	exit(0);
-}
+		free(buffer), buffer = NULL;
+		free_2D(env), env = NULL;
+		exit(0);
+	}
 
 	remove_comments(buffer);
 	if (buffer && (buffer[0] == '\0'))
@@ -32,13 +31,12 @@ char *read_command(__attribute__((unused))char **env)
 }
 
 /**
-* read_args - split given buffer into command and it's arguments
-* @buffer: given buffer
-* @env: environment variables list (to be freed)
-*
-* Return: array of 'command and arguments' strings
-*/
-
+ * read_args - split given buffer into command and it's arguments
+ * @buffer: given buffer
+ * @env: environment variables list (to be freed)
+ *
+ * Return: array of 'command and arguments' strings
+ */
 char **read_args(char *buffer, __attribute__((unused))char **env)
 {
 	char **args;
@@ -54,10 +52,10 @@ char **read_args(char *buffer, __attribute__((unused))char **env)
 	tok = _strtok(buffer, del);
 	n = 0;
 	while (tok)
-{
+	{
 		args[n++] = tok;
 		tok = _strtok(0, del);
-}
+	}
 	for (; n < ARGS_SIZE; n++)
 		args[n] = NULL;
 
@@ -65,16 +63,15 @@ char **read_args(char *buffer, __attribute__((unused))char **env)
 }
 
 /**
-* execute_command - executes given command if it exists
-* @args: array of strings containing the command and it's arguments
-* @command: entered command (to be freed)
-* @args: command and it's arguments
-* @env: pointer to environment variables list
-* @exec: executable name (to be displayed with error message)
-*
-* Return: 1 (Succes) | 0 (Failure)
-*/
-
+ * execute_command - executes given command if it exists
+ * @args: array of strings containing the command and it's arguments
+ * @command: entered command (to be freed)
+ * @args: command and it's arguments
+ * @env: pointer to environment variables list
+ * @exec: executable name (to be displayed with error message)
+ *
+ * Return: 1 (Succes) | 0 (Failure)
+ */
 int execute_command(char *command, char **args, char ***env, char *exec)
 {
 	int (*f)(char *, char **, char ***);
