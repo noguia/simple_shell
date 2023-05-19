@@ -90,12 +90,6 @@ vagrant@ubuntu-focal:~/simple_shell$
 - wait3 (man 2 wait3)
 - wait4 (man 2 wait4)
 - write (man 2 write)
-
-<h1 align="center">
-	
-
-![](https://akashicseer.com/wp-content/uploads/2020/10/know-you-know.jpg)
-
 ## Project Done by:
 > 1. [IBRAHIM OUHLIMA](https://github.com/noguia)
 > 2. [smaail -K](https://github.com/smaail-k)
