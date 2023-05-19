@@ -85,4 +85,6 @@ vagrant@ubuntu-focal:~/simple_shell$
 - wait3 (man 2 wait3)
 - wait4 (man 2 wait4)
 - write (man 2 write)
-
+## Project Done by:
+> 1. [IBRAHIM OUHLIMA](https://github.com/noguia)
+> 2. [smaail -K](https://github.com/smaail-k)
