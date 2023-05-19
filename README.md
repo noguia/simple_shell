@@ -27,3 +27,8 @@ backups  cache  crash  lib  local  lock  log  mail  opt  run  snap  spool  tmp
 /home/vagrant/simple_shell
 vagrant@ubuntu-focal:~/simple_shell$ 
 ```
+## General informations
+- Used editors: `vim`
+- Coding style: [Betty](https://github.com/holbertonschool/Betty/wiki)
+- No known memory leaks ==> *hint: check with valgrind*
+- No more than 5 functions per file
