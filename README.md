@@ -88,3 +88,6 @@ vagrant@ubuntu-focal:~/simple_shell$
 ## Project Done by:
 > 1. [IBRAHIM OUHLIMA](https://github.com/noguia)
 > 2. [smaail -K](https://github.com/smaail-k)
+<p align="center">  
+<img src ="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png">
+</p>
