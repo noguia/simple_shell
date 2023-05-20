@@ -13,8 +13,10 @@ It is created using the C programming Language and it can do many functionalitie
 This shell is designed to run on `Ubuntu 20.04 LTS` using `gcc`, with the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
 ## Usage
 **This shell supports both _interactive_ mode and _non-interactive_ mode.**
+
 ### Interactive mode
 - Run the shell in the interactive mode: `./shell`
+
 #### example:
 ```
 vagrant@ubuntu-focal:~/simple_shell$ ./shell
@@ -25,6 +27,7 @@ vagrant@ubuntu-focal:~/simple_shell$
 ```
 ### Non-interactive mode
 - Run the shell in the non-interactive mode: `echo "ls" | ./shell`
+
 #### example:
 ```
 vagrant@ubuntu-focal:~/simple_shell$ echo -e "ls /var \n pwd" | ./shell
@@ -37,6 +40,7 @@ vagrant@ubuntu-focal:~/simple_shell$
 - Coding style: [Betty](https://github.com/holbertonschool/Betty/wiki)
 - No known memory leaks ==> *hint: check with valgrind*
 - No more than 5 functions per file
+
 ## Features
 - [x] Display a prompt
 - [x] Handle errors
@@ -49,6 +53,7 @@ vagrant@ubuntu-focal:~/simple_shell$
 - [ ] Handle logical operators `&&` and `||`
 - [ ] Handle variables replacement, `$?` and `$$`
 - [x] Handle comments `#`
+
 ## Builtins
 - [x] `exit`
 - [x] `env`
@@ -57,6 +62,7 @@ vagrant@ubuntu-focal:~/simple_shell$
 - [x] `cd`
 - [ ] help
 - [ ] history
+
 ## Allowed functions and syscalls
 :computer: List of allowed functions and system calls :computer:
 - access (man 2 access)
@@ -90,9 +96,11 @@ vagrant@ubuntu-focal:~/simple_shell$
 - wait3 (man 2 wait3)
 - wait4 (man 2 wait4)
 - write (man 2 write)
+
 ## Project Done by:
 > 1. [IBRAHIM OUHLIMA](https://github.com/noguia)
 > 2. [smaail -K](https://github.com/smaail-k)
+
 <p align="center">  
 <img src ="https://assets.imaginablefutures.com/media/images/ALX_Logo.max-200x150.png">
 </p>
