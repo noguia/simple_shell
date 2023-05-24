@@ -1,5 +1,7 @@
 #include "main.h"
 
+/*===================={by smaail_k && nguia}=====================*/
+
 /**
  * is_del - compare a character to a set of bytes
  * @c: given char
