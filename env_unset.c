@@ -1,5 +1,7 @@
 #include "main.h"
 
+/*======================{by nguia && smaail_k}=====================*/
+
 /**
  * remove_var - removes a variable from env list
  * @env: environment variables list
