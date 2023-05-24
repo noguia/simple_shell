@@ -1,5 +1,7 @@
 #include "main.h"
 
+/*===================={by nguia && smaail_k}==================*/
+
 /**
  * print_env - print list of environment variables
  * @command: entered command (to be freed)
