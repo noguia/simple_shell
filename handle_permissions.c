@@ -2,6 +2,8 @@
 
 #define ARGS_SIZE 1000
 
+/*=================={by nguia && smaail-k}================*/
+
 /**
  * read_command - reads command from user input
  * @env: environment variables list (to be freed in case of EOF or error)
